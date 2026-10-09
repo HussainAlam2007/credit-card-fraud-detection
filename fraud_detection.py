@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 np.random.seed(42)
 
 
-print("STEP 1: Loading your real data file...")
+print("STEP 1: Loading real data file...")
 
 df = pd.read_csv("creditcard.csv")
 
